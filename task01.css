@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(20, 71, 63);
+    width: 100%;
+    height: 200px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    justify-items: center;
+}
+
+ul {
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+}
+
+ul li{
+    margin: 20px 30px;
+}
+
+body{
+    background-color: gainsboro;
+    justify-items: center;
+}
+
+.body{
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    text-align: center;
+    justify-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+
+.Tasks{
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+button{
+    width: 80px;
+    font-weight: 700;
+}
